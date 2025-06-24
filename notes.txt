@@ -6,4 +6,5 @@ what I learn from the course
 -Makeing the transition smooth
 -Adding scale function
 -Importing font from google fonts
--Min height
+-Min height attribute
+-Media queries
