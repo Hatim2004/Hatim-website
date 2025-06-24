@@ -1,0 +1,9 @@
+what I learn from the course 
+-How to use units like em and hv
+-Adding background image and color
+-Using flex to display elements
+-Using justify-content attribute
+-Makeing the transition smooth
+-Adding scale function
+-Importing font from google fonts
+-Min height

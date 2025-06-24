@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Ensuring the element’s size is determined by its content, not just its border. */
+    scroll-behavior: smooth;
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display: flex; /*Make the children tags fits on a single line*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px; /*Top down 10px left righ 200px*/
+}
+.logo{
+    text-decoration: none;
+    color: rgb(41, 101, 213);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; /*Resizing relative to its nearest parent element's*/
+}
+.navigation a{
+    color:rgb(41, 101, 213);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: rgb(24, 48, 93);
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh; /*Resizing relative to the height of the browser window*/
+    display: flex;
+    align-items: center;
+    background-image:
+        linear-gradient(rgba(5, 18, 86, 0.335), rgba(53, 129, 195, 0.57)),
+        url("images/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block; /*To give the inline elements like span a margin and padding*/
+    margin-top: 10px;
+    color: rgb(0, 89, 255);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover{
+    background-color: rgb(3, 70, 196);
+    transform: scale(1.1); /*Built in function to make the scale bigger by 1.1*/
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 32px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(3, 70, 196);
+    font-weight:900;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /*To display the cards in a row*/
+    flex-wrap: nowrap; /*To display on smaller screens*/
+}
+
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color:rgb(3, 70, 196);
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color:rgb(3, 70, 196);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color:rgb(0, 0, 0);
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: aliceblue;
+    border: 5px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-img{
+    opacity: 0.9;
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 0.8em;
+}
+
+.project-category{
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color:rgb(3, 70, 196);
+}
+
+.content .icon{
+    font-size: 4.5em;
+}
+
+.content .info h3{
+    color: black;
+}
+
+.content .info p{
+    font-size: 1.5em;
+}
+
+footer{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+     color:rgb(3, 70, 196);
+}
