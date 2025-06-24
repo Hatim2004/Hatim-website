@@ -7,3 +7,4 @@ what I learn from the course <br>
 -Adding scale function <br>
 -Importing font from google fonts <br>
 -Min height attribute <br>
+-Media queries
